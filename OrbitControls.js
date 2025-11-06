@@ -1,15 +1,4 @@
-import {
-	Controls,
-	MOUSE,
-	Quaternion,
-	Spherical,
-	TOUCH,
-	Vector2,
-	Vector3,
-	Plane,
-	Ray,
-	MathUtils
-} from 'three';
+import * as THREE from './three.core.min.js';
 
 /**
  * Fires when the camera has been transformed by the controls.
