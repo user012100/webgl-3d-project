@@ -1,4 +1,4 @@
-import * as THREE from './three.core.min.js';
+import * as THREE from './three.module.js';
 import { OrbitControls } from './OrbitControls.js';
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
